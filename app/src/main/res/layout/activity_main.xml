@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/checkBoxHigh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="High School" />
+
+    <CheckBox
+        android:id="@+id/checkBoxGrad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Graduate" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Graduate" />
+
+    <CheckBox
+        android:id="@+id/checkBoxProf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Professional" />
+
+    <TextView
+        android:id="@+id/textViewOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
